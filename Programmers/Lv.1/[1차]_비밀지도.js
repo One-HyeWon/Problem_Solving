@@ -26,7 +26,6 @@ function solution(n, arr1, arr2) {
         num2 = temp;
       }
     }
-    console.log('num1, num2 == ' + num1 + ' ' + num2);
 
     for (let j = 0; j < size; j++) {
       if (num1[j] === '0' && num2[j] === '0' && num1[j] === num2[j]) {
@@ -41,5 +40,3 @@ function solution(n, arr1, arr2) {
 
   return answer;
 }
-
-console.log(solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28]));
