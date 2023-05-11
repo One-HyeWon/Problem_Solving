@@ -40,5 +40,3 @@ function solution(n, arr1, arr2) {
 
   return answer;
 }
-
-console.log('확인');
