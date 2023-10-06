@@ -2,8 +2,8 @@ function solution(n) {
   function nNum(number) {
     return number
       .toString(2)
-      .split("")
-      .filter((num) => num == 1);
+      .split('')
+      .filter(num => num == 1);
   }
 
   const oneNum = nNum(n);
