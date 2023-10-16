@@ -14,7 +14,7 @@ function solution(N, stages) {
   });
 
   let stageArr = Object.entries(obj);
-  stageArr.map((num, index) => {
+  stageArr.map(num => {
     if (!isNaN(num[1])) {
       falseRate[num[0]] = num[1] / (challagePeople - people);
       people += num[1];
